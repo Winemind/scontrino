@@ -2,7 +2,7 @@
   "name": "Dividi Scontrino Auto",
   "short_name": "Scontrino",
   "description": "Divisione automatica del conto con riconoscimento vino",
-  "start_url": "./dividi-scontrino.html",
+  "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#2C1810",
   "theme_color": "#2C1810",
@@ -20,5 +20,6 @@
       "type": "image/png",
       "purpose": "any maskable"
     }
-  ]
+  ],
+  "scope": "/"
 }

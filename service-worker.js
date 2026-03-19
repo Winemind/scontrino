@@ -1,6 +1,6 @@
 const CACHE = 'scontrino-v1';
 const ASSETS = [
-  './dividi-scontrino.html',
+  './index.html',
   './manifest.json',
   'https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap',
   'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js',
@@ -34,6 +34,6 @@ self.addEventListener('fetch', e => {
         }
         return res;
       });
-    }).catch(() => caches.match('./dividi-scontrino.html'))
+    }).catch(() => caches.match('./index.html'))
   );
 });
